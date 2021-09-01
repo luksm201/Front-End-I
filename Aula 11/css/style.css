@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1000px;
+    background-color: grey;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border: black 5px solid;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #div1 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    background-color: blue;
+  }
+
+  #div2 {
+      position: fixed;
+      top: 50%;
+      left:45%;
+      background-color: greenyellow;
+  }
+
+  #div3 {
+    position: absolute;
+    top:0%;
+    right:0%;
+    background-color: red;
+}
+
+#caixaInterna {
+    border: black 5px solid;
+    padding: 10px;
+    position: relative;
+    font-size:15px;
+    background-color: white;
+    
+}
+ 
+  
+  

@@ -1,0 +1,23 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {background-image: url(../img/avenida-paulista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: 'Cormorant Garamond', serif, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+}
+
+.header {background-color: rgb(250, 143, 135,0.5);
+        color: rgb(49, 47, 47);
+        text-align: center;
+        padding: 10px;
+        font-family:'pacifico';
+        font-size:25px;
+        }
+
+p {font-size: larger;}
