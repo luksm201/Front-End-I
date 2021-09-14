@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(159, 96, 218);
+}
+
+#bola {
+    width: 200px;
+    animation: bolaRolando 5s infinite;
+    }
+
+@keyframes bolaRolando {
+    0% {opacity: 0%; transform: translateX(0px) rotate(0deg)}
+    50% {opacity: 50%; transform: translateX(600px) rotate(360deg);}
+    100% {opacity: 100%; transform: translateX(1200px) rotate(-300deg);}
+}
+
+#google-fotos {
+    width: 200px;
+    display:block;
+    margin: 50px;
+    animation: gfotos 5s infinite;
+}
+
+@keyframes gfotos {
+    0% {opacity: 0%; transform: scale(5) skew(15deg, 10deg) translateX(0px) rotate(0deg)}
+    50% {opacity: 50%; transform: scale(2) skew(15deg, 0deg) translateX(600px) rotate(-360deg);}
+    100% {opacity: 100%; transform: scale(0.5) skew(15deg, 0deg) translateX(1200px) rotate(300deg);}
+}
+
+
+
+button{
+        display: block;
+        margin: 50px;
+        transition: all ease-in-out 0.3s;
+        border-radius: 20px;
+}
+
+button:hover {
+    background-color: blue;
+}
